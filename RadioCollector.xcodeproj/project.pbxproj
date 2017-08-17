@@ -12,6 +12,7 @@
 		A5BA5D141F43DDBF001DD48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D121F43DDBF001DD48C /* Main.storyboard */; };
 		A5BA5D161F43DDBF001DD48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D151F43DDBF001DD48C /* Assets.xcassets */; };
 		A5BA5D191F43DDBF001DD48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D171F43DDBF001DD48C /* LaunchScreen.storyboard */; };
+		A5BA5D221F43E41D001DD48C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5D211F43E41D001DD48C /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A5BA5D151F43DDBF001DD48C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5BA5D181F43DDBF001DD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BA5D1A1F43DDBF001DD48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BA5D211F43E41D001DD48C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		A5BA5D0D1F43DDBF001DD48C /* RadioCollector */ = {
 			isa = PBXGroup;
 			children = (
+				A5BA5D201F43E3F5001DD48C /* Controller */,
 				A5BA5D0E1F43DDBF001DD48C /* AppDelegate.swift */,
-				A5BA5D101F43DDBF001DD48C /* ViewController.swift */,
 				A5BA5D121F43DDBF001DD48C /* Main.storyboard */,
 				A5BA5D151F43DDBF001DD48C /* Assets.xcassets */,
 				A5BA5D171F43DDBF001DD48C /* LaunchScreen.storyboard */,
 				A5BA5D1A1F43DDBF001DD48C /* Info.plist */,
 			);
 			path = RadioCollector;
+			sourceTree = "<group>";
+		};
+		A5BA5D201F43E3F5001DD48C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA5D211F43E41D001DD48C /* LoginController.swift */,
+				A5BA5D101F43DDBF001DD48C /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BA5D111F43DDBF001DD48C /* ViewController.swift in Sources */,
+				A5BA5D221F43E41D001DD48C /* LoginController.swift in Sources */,
 				A5BA5D0F1F43DDBF001DD48C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				A5BA5D1F1F43DDBF001DD48C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
