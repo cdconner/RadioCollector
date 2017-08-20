@@ -18,6 +18,7 @@ depends-top-level:
 - "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
+- !private "FirebaseApp"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIApplicationLaunchOptionsKey"
@@ -27,6 +28,7 @@ depends-top-level:
 - "UIWindow"
 - !private "ViewController"
 depends-member:
+- !private ["Ps9AnyObject", "FirebaseApp"]
 - !private ["Ps9AnyObject", "UINavigationController"]
 - !private ["Ps9AnyObject", "UIScreen"]
 - !private ["Ps9AnyObject", "UIWindow"]
@@ -44,6 +46,7 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillResignActive"]
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "configure"]
 - !private ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "main"]
 - !private ["Ps9AnyObject", "makeKeyAndVisible"]
@@ -51,6 +54,7 @@ depends-member:
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C14RadioCollector11AppDelegate", "Bool"]
+- !private ["C14RadioCollector11AppDelegate", "FirebaseApp"]
 - ["C14RadioCollector11AppDelegate", "UIApplication"]
 - ["C14RadioCollector11AppDelegate", "UIApplicationLaunchOptionsKey"]
 - !private ["C14RadioCollector11AppDelegate", "UINavigationController"]
@@ -75,6 +79,7 @@ depends-member:
 - !private ["PSo15CALayerDelegate", "init"]
 - !private ["PSo15CALayerDelegate", "makeKeyAndVisible"]
 - !private ["PSo15CALayerDelegate", "rootViewController"]
+- !private ["Ps7CVarArg", "FirebaseApp"]
 - !private ["Ps7CVarArg", "UINavigationController"]
 - !private ["Ps7CVarArg", "UIScreen"]
 - !private ["Ps7CVarArg", "UIWindow"]
@@ -92,12 +97,14 @@ depends-member:
 - ["Ps7CVarArg", "applicationWillResignActive"]
 - ["Ps7CVarArg", "applicationWillTerminate"]
 - !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "configure"]
 - !private ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "main"]
 - !private ["Ps7CVarArg", "makeKeyAndVisible"]
 - !private ["Ps7CVarArg", "rootViewController"]
 - ["Ps7CVarArg", "window"]
 - ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "FirebaseApp"]
 - !private ["Ps28CustomDebugStringConvertible", "UINavigationController"]
 - !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
 - !private ["Ps28CustomDebugStringConvertible", "UIWindow"]
@@ -115,12 +122,14 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
 - !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "configure"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
 - !private ["Ps28CustomDebugStringConvertible", "makeKeyAndVisible"]
 - !private ["Ps28CustomDebugStringConvertible", "rootViewController"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FirebaseApp"]
 - !private ["Ps23CustomStringConvertible", "UINavigationController"]
 - !private ["Ps23CustomStringConvertible", "UIScreen"]
 - !private ["Ps23CustomStringConvertible", "UIWindow"]
@@ -138,12 +147,14 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillResignActive"]
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
 - !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "configure"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "main"]
 - !private ["Ps23CustomStringConvertible", "makeKeyAndVisible"]
 - !private ["Ps23CustomStringConvertible", "rootViewController"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FirebaseApp"]
 - !private ["Ps9Equatable", "UINavigationController"]
 - !private ["Ps9Equatable", "UIScreen"]
 - !private ["Ps9Equatable", "UIWindow"]
@@ -161,12 +172,15 @@ depends-member:
 - ["Ps9Equatable", "applicationWillResignActive"]
 - ["Ps9Equatable", "applicationWillTerminate"]
 - !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "configure"]
 - !private ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "main"]
 - !private ["Ps9Equatable", "makeKeyAndVisible"]
 - !private ["Ps9Equatable", "rootViewController"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["CSo11FirebaseApp", "configure"]
+- !private ["Ps8Hashable", "FirebaseApp"]
 - !private ["Ps8Hashable", "UINavigationController"]
 - !private ["Ps8Hashable", "UIScreen"]
 - !private ["Ps8Hashable", "UIWindow"]
@@ -184,6 +198,7 @@ depends-member:
 - ["Ps8Hashable", "applicationWillResignActive"]
 - ["Ps8Hashable", "applicationWillTerminate"]
 - !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "configure"]
 - !private ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "main"]
 - !private ["Ps8Hashable", "makeKeyAndVisible"]
@@ -195,6 +210,7 @@ depends-member:
 - !private ["PSo8NSCoding", "rootViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FirebaseApp"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
 - !private ["CSo8NSObject", "UINavigationController"]
@@ -214,11 +230,13 @@ depends-member:
 - ["CSo8NSObject", "applicationWillResignActive"]
 - ["CSo8NSObject", "applicationWillTerminate"]
 - !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "configure"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "main"]
 - !private ["CSo8NSObject", "makeKeyAndVisible"]
 - !private ["CSo8NSObject", "rootViewController"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FirebaseApp"]
 - !private ["PSo16NSObjectProtocol", "UINavigationController"]
 - !private ["PSo16NSObjectProtocol", "UIScreen"]
 - !private ["PSo16NSObjectProtocol", "UIWindow"]
@@ -236,6 +254,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillResignActive"]
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "configure"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "main"]
 - !private ["PSo16NSObjectProtocol", "makeKeyAndVisible"]
@@ -251,6 +270,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "makeKeyAndVisible"]
 - !private ["PSo21UIAppearanceContainer", "rootViewController"]
+- !private ["PSo21UIApplicationDelegate", "FirebaseApp"]
 - !private ["PSo21UIApplicationDelegate", "UINavigationController"]
 - !private ["PSo21UIApplicationDelegate", "UIScreen"]
 - !private ["PSo21UIApplicationDelegate", "UIWindow"]
@@ -284,6 +304,7 @@ depends-member:
 - !private ["PSo11UIFocusItem", "rootViewController"]
 - !private ["CSo22UINavigationController", "init"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FirebaseApp"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
 - !private ["CSo11UIResponder", "UINavigationController"]
@@ -307,6 +328,7 @@ depends-member:
 - !private ["CSo11UIResponder", "rootViewController"]
 - ["CSo11UIResponder", "window"]
 - ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "FirebaseApp"]
 - !private ["PSo30UIResponderStandardEditActions", "UINavigationController"]
 - !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
 - !private ["PSo30UIResponderStandardEditActions", "UIWindow"]
@@ -351,6 +373,7 @@ depends-member:
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "makeKeyAndVisible"]
 - !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rootViewController"]
+- !private ["Ps9_Hashable", "FirebaseApp"]
 - !private ["Ps9_Hashable", "UINavigationController"]
 - !private ["Ps9_Hashable", "UIScreen"]
 - !private ["Ps9_Hashable", "UIWindow"]
@@ -368,6 +391,7 @@ depends-member:
 - ["Ps9_Hashable", "applicationWillResignActive"]
 - ["Ps9_Hashable", "applicationWillTerminate"]
 - !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "configure"]
 - !private ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "main"]
 - !private ["Ps9_Hashable", "makeKeyAndVisible"]
@@ -382,6 +406,7 @@ depends-nominal:
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "CSo11FirebaseApp"
 - "Ps8Hashable"
 - !private "PSo8NSCoding"
 - !private "PSo26NSExtensionRequestHandling"
@@ -430,4 +455,73 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "b306772a10463f7c5fce689aa6452f8e"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthAPNSTokenType.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FirebaseCore.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/Firebase/Core/Sources/Firebase.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthCredential.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRLoggerLevel.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FirebaseAuthVersion.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRConfiguration.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAdditionalUserInfo.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRApp.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIROAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRPhoneAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIREmailAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRActionCodeSettings.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIROptions.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthDataResult.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageSwiftNameSupport.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Headers/FIRCoreSwiftNameSupport.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseSwiftNameSupport.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Headers/FIRAuthSwiftNameSupport.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsSwiftNameSupport.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/Firebase/Core/Sources/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseInstanceID/Frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseCore/Frameworks/FirebaseCore.framework/Modules/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/chrisconner/Desktop/RadioCollector/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+interface-hash: "3ced463a6a08738d2e1a137498697d3e"

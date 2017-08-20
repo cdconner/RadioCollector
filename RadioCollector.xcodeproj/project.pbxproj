@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AE92281F47EC02003F08B7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5AE92271F47EC02003F08B7 /* GoogleService-Info.plist */; };
 		A5BA5D0F1F43DDBF001DD48C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5D0E1F43DDBF001DD48C /* AppDelegate.swift */; };
 		A5BA5D111F43DDBF001DD48C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5D101F43DDBF001DD48C /* ViewController.swift */; };
 		A5BA5D141F43DDBF001DD48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D121F43DDBF001DD48C /* Main.storyboard */; };
 		A5BA5D161F43DDBF001DD48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D151F43DDBF001DD48C /* Assets.xcassets */; };
 		A5BA5D191F43DDBF001DD48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA5D171F43DDBF001DD48C /* LaunchScreen.storyboard */; };
 		A5BA5D221F43E41D001DD48C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA5D211F43E41D001DD48C /* LoginController.swift */; };
+		E0FCB5257A9E200C09D099D6 /* Pods_RadioCollector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C277F191554F7E89E78E490 /* Pods_RadioCollector.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C277F191554F7E89E78E490 /* Pods_RadioCollector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RadioCollector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2250C915D60498622DA27060 /* Pods-RadioCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioCollector.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RadioCollector/Pods-RadioCollector.debug.xcconfig"; sourceTree = "<group>"; };
+		A5AE92271F47EC02003F08B7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A5BA5D0B1F43DDBF001DD48C /* RadioCollector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioCollector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5BA5D0E1F43DDBF001DD48C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5BA5D101F43DDBF001DD48C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		A5BA5D181F43DDBF001DD48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5BA5D1A1F43DDBF001DD48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BA5D211F43E41D001DD48C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C129576D1AAC72142CADD552 /* Pods-RadioCollector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RadioCollector.release.xcconfig"; path = "Pods/Target Support Files/Pods-RadioCollector/Pods-RadioCollector.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FCB5257A9E200C09D099D6 /* Pods_RadioCollector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A6D3DD9DA9C1434EE10C232 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2250C915D60498622DA27060 /* Pods-RadioCollector.debug.xcconfig */,
+				C129576D1AAC72142CADD552 /* Pods-RadioCollector.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50118AACC0CD941DE1F76CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C277F191554F7E89E78E490 /* Pods_RadioCollector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5BA5D021F43DDBF001DD48C = {
 			isa = PBXGroup;
 			children = (
 				A5BA5D0D1F43DDBF001DD48C /* RadioCollector */,
 				A5BA5D0C1F43DDBF001DD48C /* Products */,
+				4A6D3DD9DA9C1434EE10C232 /* Pods */,
+				50118AACC0CD941DE1F76CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +88,7 @@
 				A5BA5D151F43DDBF001DD48C /* Assets.xcassets */,
 				A5BA5D171F43DDBF001DD48C /* LaunchScreen.storyboard */,
 				A5BA5D1A1F43DDBF001DD48C /* Info.plist */,
+				A5AE92271F47EC02003F08B7 /* GoogleService-Info.plist */,
 			);
 			path = RadioCollector;
 			sourceTree = "<group>";
@@ -82,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5BA5D1D1F43DDBF001DD48C /* Build configuration list for PBXNativeTarget "RadioCollector" */;
 			buildPhases = (
+				7E7618663B7908FA72454920 /* [CP] Check Pods Manifest.lock */,
 				A5BA5D071F43DDBF001DD48C /* Sources */,
 				A5BA5D081F43DDBF001DD48C /* Frameworks */,
 				A5BA5D091F43DDBF001DD48C /* Resources */,
+				57DAD95F1A35CA8CCA33AEAD /* [CP] Embed Pods Frameworks */,
+				BA5F773AB4833877F59A3EE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,12 +166,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5BA5D191F43DDBF001DD48C /* LaunchScreen.storyboard in Resources */,
+				A5AE92281F47EC02003F08B7 /* GoogleService-Info.plist in Resources */,
 				A5BA5D161F43DDBF001DD48C /* Assets.xcassets in Resources */,
 				A5BA5D141F43DDBF001DD48C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DAD95F1A35CA8CCA33AEAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RadioCollector/Pods-RadioCollector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioCollector/Pods-RadioCollector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E7618663B7908FA72454920 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RadioCollector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5F773AB4833877F59A3EE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RadioCollector/Pods-RadioCollector-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5BA5D071F43DDBF001DD48C /* Sources */ = {
@@ -271,12 +362,13 @@
 		};
 		A5BA5D1E1F43DDBF001DD48C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2250C915D60498622DA27060 /* Pods-RadioCollector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BJT8QVT53Y;
 				INFOPLIST_FILE = RadioCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisconner.RadioCollector;
+				PRODUCT_BUNDLE_IDENTIFIER = co.chrisconner.RadioCollector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,12 +376,13 @@
 		};
 		A5BA5D1F1F43DDBF001DD48C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C129576D1AAC72142CADD552 /* Pods-RadioCollector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BJT8QVT53Y;
 				INFOPLIST_FILE = RadioCollector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chrisconner.RadioCollector;
+				PRODUCT_BUNDLE_IDENTIFIER = co.chrisconner.RadioCollector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

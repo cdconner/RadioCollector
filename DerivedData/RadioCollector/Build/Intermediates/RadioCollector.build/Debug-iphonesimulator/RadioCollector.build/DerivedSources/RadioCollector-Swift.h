@@ -157,6 +157,7 @@ SWIFT_CLASS("_TtC14RadioCollector11AppDelegate")
 @class UIButton;
 @class UITextField;
 @class UIImageView;
+@class UISegmentedControl;
 @class NSBundle;
 @class NSCoder;
 
@@ -164,6 +165,7 @@ SWIFT_CLASS("_TtC14RadioCollector15LoginController")
 @interface LoginController : UIViewController
 @property (nonatomic, readonly, strong) UIView * _Nonnull inputsContainerView;
 @property (nonatomic, readonly, strong) UIButton * _Nonnull loginRegisterButton;
+- (void)handleRegister;
 @property (nonatomic, readonly, strong) UITextField * _Nonnull nameTextField;
 @property (nonatomic, readonly, strong) UIView * _Nonnull nameSeparatorView;
 @property (nonatomic, readonly, strong) UITextField * _Nonnull emailTextField;
@@ -171,7 +173,9 @@ SWIFT_CLASS("_TtC14RadioCollector15LoginController")
 @property (nonatomic, readonly, strong) UITextField * _Nonnull passwordTextField;
 @property (nonatomic, readonly, strong) UIView * _Nonnull passwordSeparatorView;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull profileImageView;
+@property (nonatomic, readonly, strong) UISegmentedControl * _Nonnull loginRegisterSegmentedControl;
 - (void)viewDidLoad;
+- (void)setupLoginRegisterSegmentedControl;
 - (void)setupProfileImageView;
 - (void)setupInputsContainerView;
 - (void)setupLoginRegisterButton;
