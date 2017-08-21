@@ -158,6 +158,7 @@ SWIFT_CLASS("_TtC14RadioCollector11AppDelegate")
 @class UITextField;
 @class UIImageView;
 @class UISegmentedControl;
+@class NSLayoutConstraint;
 @class NSBundle;
 @class NSCoder;
 
@@ -173,10 +174,15 @@ SWIFT_CLASS("_TtC14RadioCollector15LoginController")
 @property (nonatomic, readonly, strong) UITextField * _Nonnull passwordTextField;
 @property (nonatomic, readonly, strong) UIView * _Nonnull passwordSeparatorView;
 @property (nonatomic, readonly, strong) UIImageView * _Nonnull profileImageView;
-@property (nonatomic, readonly, strong) UISegmentedControl * _Nonnull loginRegisterSegmentedControl;
+@property (nonatomic, strong) UISegmentedControl * _Nonnull loginRegisterSegmentedControl;
+- (void)handleLoginRegisterChange;
 - (void)viewDidLoad;
 - (void)setupLoginRegisterSegmentedControl;
 - (void)setupProfileImageView;
+@property (nonatomic, strong) NSLayoutConstraint * _Nullable inputsConstainerViewHeightsAnchor;
+@property (nonatomic, strong) NSLayoutConstraint * _Nullable nameTextFieldHeightAnchor;
+@property (nonatomic, strong) NSLayoutConstraint * _Nullable emailTextFieldHeightAnchor;
+@property (nonatomic, strong) NSLayoutConstraint * _Nullable passwordTextFieldHeightAnchor;
 - (void)setupInputsContainerView;
 - (void)setupLoginRegisterButton;
 @property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;

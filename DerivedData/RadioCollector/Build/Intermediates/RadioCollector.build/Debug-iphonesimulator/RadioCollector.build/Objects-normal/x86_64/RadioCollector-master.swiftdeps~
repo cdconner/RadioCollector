@@ -1,7 +1,7 @@
 version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
 options: "d556d87bf048359594011a74cf4d0dcd"
-build_time: [556584794, 72103000]
+build_time: [556604013, 304379000]
 inputs:
   "/Users/chrisconner/Desktop/RadioCollector/RadioCollector/ViewController.swift": [556512736, 0]
-  "/Users/chrisconner/Desktop/RadioCollector/RadioCollector/LoginController.swift": [556584793, 0]
+  "/Users/chrisconner/Desktop/RadioCollector/RadioCollector/LoginController.swift": [556604013, 0]
   "/Users/chrisconner/Desktop/RadioCollector/RadioCollector/AppDelegate.swift": [556510313, 0]
