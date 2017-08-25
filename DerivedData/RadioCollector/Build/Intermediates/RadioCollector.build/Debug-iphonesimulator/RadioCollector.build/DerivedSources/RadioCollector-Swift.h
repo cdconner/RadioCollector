@@ -166,6 +166,8 @@ SWIFT_CLASS("_TtC14RadioCollector15LoginController")
 @interface LoginController : UIViewController
 @property (nonatomic, readonly, strong) UIView * _Nonnull inputsContainerView;
 @property (nonatomic, readonly, strong) UIButton * _Nonnull loginRegisterButton;
+- (void)handleLoginRegister;
+- (void)handleLogin;
 - (void)handleRegister;
 @property (nonatomic, readonly, strong) UITextField * _Nonnull nameTextField;
 @property (nonatomic, readonly, strong) UIView * _Nonnull nameSeparatorView;
